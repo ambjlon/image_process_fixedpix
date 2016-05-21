@@ -6,8 +6,10 @@ python kk.py '/path/to/a.jpg'  '/path/to/b5.jpg' '5'
 
 运行次脚本之前需要python安装PIL库. PIL又依赖libjpeg libpng.
 以后大多情况在mac os上使用此脚本, 现在以mac os安装PIL为例给出安装过程:
-1. 使用brew install libjpeg libpng
-2. 下载[PIL](http://effbot.org/media/downloads/PIL-1.1.7.tar.gz)
+
+1. 使用brew install libjpeg libpng  
+2. 下载[PIL](http://effbot.org/media/downloads/PIL-1.1.7.tar.gz)  
 3. 解压进入目录后执行:
-    + sudo python setup.py build
-    + python setup.py install
+
+    + sudo python setup.py build  
+    + python setup.py install  
